@@ -13,4 +13,3 @@ def isprime(num):
     else:
         print(num, "is not a prime number")
 isprime(2)
-print(2%2)
