@@ -33,3 +33,10 @@ arr = [9, 4, 9, 7, 7, 4,3]
 n = len(arr)
 print(nonrepeatingelem(arr, n))
 
+# reverse of an array
+
+arr1 = (1,2,3,4,5)
+print(arr1[::-1])
+
+
+
