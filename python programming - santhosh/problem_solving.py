@@ -39,4 +39,14 @@ arr1 = (1,2,3,4,5)
 print(arr1[::-1])
 
 
+#sum of numbers in an arr
+
+def sumofarr(*list):
+    sum = 0
+    for i in range(len(list)):
+        sum+=list[i]
+    return sum
+l1=[1,2,3,4,5]
+print(sum(l1))
+
 
