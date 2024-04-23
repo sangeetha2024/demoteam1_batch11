@@ -1,4 +1,4 @@
-# to find if the given number is prime or not
+#1 to find if the given number is prime or not
 
 def isprime(num):
     if num > 1:
@@ -14,7 +14,7 @@ def isprime(num):
         print(num, "is not a prime number")
 isprime(3)
 
-# Non repeating elements in an array
+#2 Non repeating elements in an array
 
 def nonrepeatingelem(arr,n):
     for i in range(n):
@@ -33,13 +33,13 @@ arr = [9, 4, 9, 7, 7, 4,3]
 n = len(arr)
 print(nonrepeatingelem(arr, n))
 
-# reverse of an array
+#3 reverse of an array
 
 arr1 = (1,2,3,4,5)
 print(arr1[::-1])
 
 
-#sum of numbers in an arr
+#4 sum of numbers in an arr
 
 def sumofarr(*list):
     sum = 0
@@ -48,5 +48,16 @@ def sumofarr(*list):
     return sum
 l1=[1,2,3,4,5]
 print(sum(l1))
+
+#5 area of a triangle
+
+a = 5
+b = 6
+c = 7
+
+s = (a + b + c) / 2
+
+area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
+print('The area of the triangle is %0.2f' %area)
 
 
