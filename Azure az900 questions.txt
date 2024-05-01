@@ -1,0 +1,62 @@
+1 You need to compare the costs of running an application in an on-premises datacenter with the costs of running the application in Azure.
+What should you use to assist you?
+
+Azure Cost Management
+Azure Advisor
+Azure Pricing calculator
+Option 4
+
+2 What are two characteristics of a consumption-based model? Each correct answer presents a complete solution.
+
+high capital expenditures
+requires the purchase and management of the physical infrastructure
+the ability to stop paying for resources that are no longer used
+
+
+3 Which Azure Storage service should you use to store unstructured files, such as images, that will be served on webpages?
+
+Azure Blob storage
+Azure Disk Storage
+Azure Queue Storage
+Azure Table storage
+Option 5
+
+4 in a platform as a service (PaaS) model, which two components are the responsibility of the cloud service provider? Each correct answer presents a complete solution.(only one answer is correct)
+
+ans - information and data
+operating system 
+physical network
+user access
+
+5 What can you use to connect Azure resources, such as Azure SQL databases, to an Azure virtual network?
+
+ExpressRoute
+network security groups (NSGs)
+peering
+(ans) service endpoints
+
+ 
+6.You have multiple storage account in your subscription. You need to provide read access for storage account1 only to a user, write access should not be granted. Access to other storage account should not be given.
+Which of the following will you configure?
+
+Microsoft AD device managment
+Multi-factor Authentication
+RBAC
+Conditional Access
+
+7 Your company has datacenters in Los Angeles and New York. The company has a Microsoft Azure subscription.
+You are configuring the two datacenters as geo-clustered sites for site resiliency.
+You need to recommend an Azure storage redundancy option.
+You have the following data storage requirements:
+a) Data must be stored on multiple nodes.
+b) Data must be stored on nodes in separate geographic locations.
+c) Data can be read from the secondary location as well as from the primary location
+Which of the following Azure stored redundancy options should you recommend?
+
+Geo-redundant storage 
+Read-only geo-redundant storage
+Zone-redundant storage
+Locally redundant storage
+
+ 
+8 Azure Disk volumes can only be attached to single Virtual machine at a time?

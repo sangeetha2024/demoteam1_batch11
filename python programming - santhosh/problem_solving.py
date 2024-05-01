@@ -61,7 +61,7 @@ area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
 print('The area of the triangle is %0.2f' %area)
 
 
-# to checck a element in a list 
+#6 to checck a element in a list 
 def findelement(num):
     mylist = [1,34,23,7,9,45]
     if num in mylist:
